@@ -1,0 +1,47 @@
+.container {
+    background-color: skyblue;
+
+}
+.header-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+}
+
+.header-container h1 {
+    color: #f0f8ff;
+    font-family: 'Courier New';
+    width: 50px;
+    margin: 15px;
+}
+
+.object-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.object-row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.object {
+    background-color: white;
+    margin: 15px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
+
+.object-name {
+    font-size: 15px;
+    color: #616e7c;
+}
+
+.object-cost {
+    font-size: 23px;
+    color: #323f4b;
+}
