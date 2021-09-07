@@ -2,6 +2,7 @@
     background-color: skyblue;
 
 }
+
 .header-container {
     background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
 }
@@ -15,15 +16,16 @@
 
 .object-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    
+
 }
 
 .object-row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    justify-content: center;
 }
 
 .object {
@@ -44,4 +46,9 @@ img {
 .object-cost {
     font-size: 23px;
     color: #323f4b;
+}
+
+button {
+    margin-left: 40%;
+    margin-right: 40%;
 }
