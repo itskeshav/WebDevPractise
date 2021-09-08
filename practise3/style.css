@@ -17,6 +17,12 @@
     margin-right: 50px;
 }
 
+.chat-box p {
+    
+    padding: 10px 9px;
+
+}
+
 .sent {
     background-color: #47a3f3;
     text-align: right;
