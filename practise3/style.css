@@ -9,5 +9,17 @@
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
+    background-color: #323f4b;
 }
 
+.chat-box {
+    text-align: center;
+}
+
+.sent {
+    background-color: #47a3f3;
+}
+
+.received {
+    background-color: #52606d;
+}
