@@ -1,7 +1,53 @@
+.main-container {
+    margin: 20px;
+}
+.header, .covid19-test-container, .footer, .symptoms-gallery {
+    margin-bottom: 15px;
+}
+
+
+.covid19-test-container {
+    background-color: #0967d219;
+}
+.symptoms-item1 {
+    background-color: #3ebd93;
+}
+.symptoms-item2 {
+    background-color: #e668a7;
+}
+.symptoms-item3 {
+    background-color: #a368fc;
+}
+.footer {
+    background-color: #e12d3919;
+}
+
+
+
 .heading {
     color: #323f4b;
 }
-
-p {
+.covid-test-description p,  .footer-description p{
     color: #707070;
 }
+.symptoms-gallery div p {
+    color: white;
+}
+
+
+
+.covid19-test-container, .footer {
+    padding: 15px;
+    border-radius: 20px;
+}
+.covid-test-description, .footer-description {
+    padding-left: 20px;
+}
+.symptoms-gallery div {
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
