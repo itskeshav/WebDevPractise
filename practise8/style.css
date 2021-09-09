@@ -1,0 +1,23 @@
+.goa-info {
+    margin: 25px;
+}
+
+.heading {
+    font-size: large;
+    color: #323f4b;
+}
+
+.description {
+    color: #9aa5b1;
+    margin-bottom: 20px;
+}
+
+.img-gallery {
+    margin-bottom: 20px;
+}
+
+.video-item, .img-item{
+    width: 10%;
+    height: 10%;
+    margin-right: 15px;
+}
