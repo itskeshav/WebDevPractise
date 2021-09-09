@@ -1,0 +1,10 @@
+.fav-place-details-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100%;
+}
+
+.heading {
+    color: white;
+    padding: 20px;
+    margin: 0px;
+}
