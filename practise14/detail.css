@@ -1,0 +1,33 @@
+.detail-page-container {
+    background-color: #03174c;
+    height: 100%;
+    width: 100%;
+}
+
+.top-sec-img {
+    height: 300px;
+    width: 100%;
+}
+
+.bottom-sec-conatiner {
+    padding-left: 20px;
+}
+
+.heading {
+    color: white;
+}
+
+
+p {
+    color: #98a1bd;
+}
+
+
+.bottom-sec-img {
+    display: flex;
+}
+
+.img-item-bottom {
+    width: 150px;
+    height: 150px;
+}
