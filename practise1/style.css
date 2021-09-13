@@ -1,54 +1,45 @@
-.container {
-    background-color: skyblue;
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
+
+.diwali-top-section {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+  height: 30vh;
+  background-size: cover;
 }
-
-.header-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+.diwali-top-section-heading {
+  color: white;
+  font-family: "Caveat";
+  font-size: 36px;
+  width: 200px;
+  padding: 20px;
 }
-
-.header-container h1 {
-    color: #f0f8ff;
-    font-family: 'Courier New';
-    width: 50px;
-    margin: 15px;
+.diwali-bottom-section {
+  text-align:center;
+  background-color: #e6f6ff;
+  padding:15px;
+  height: 70vh;
 }
-
-.object-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+.diwali-card-item {
+  text-align: center;
+  background-color: white;
+  width:140px;
+  border-radius: 9px;
+  padding: 16px;
+  margin: 15px;
 }
-
-.object-row {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
+.diwali-card-image {
+  height: 64px;
+  width: 64px;
 }
-
-.object {
-    background-color: white;
-    margin: 15px;
+.diwali-card-name {
+  color: #616e7c;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: normal;
 }
-
-img {
-    width: 130px;
-    height: 130px;
-}
-
-.object-name {
-    font-size: 15px;
-    color: #616e7c;
-}
-
-.object-cost {
-    font-size: 23px;
-    color: #323f4b;
-}
-
-button {
-    margin-left: 40%;
-    margin-right: 40%;
+.diwali-card-price {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
 }

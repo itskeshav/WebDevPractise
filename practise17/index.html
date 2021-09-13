@@ -1,40 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Foundations Page</title>
 </head>
 <body>
-    <div class="container">
-        <div class="card-container">
-            <h1 class="heading">Foundations</h1>
-            <p class="card-text">Learn courses that will help you move forward in your future</p>
-            <div class="course-gallery">
-                <div class="course-row-section ">
-                    <div class="course-item">
-                        <img class="course-img" src="https://assets.ccbp.in/frontend/static-website/foundations-python-img.png" alt="" />
-                        <p class="course-name">Python</p>
-                    </div>
-                    <div class="course-item">
-                        <img class="course-img" src="https://assets.ccbp.in/frontend/static-website/foundations-javascript-img.png" alt="" />
-                        <p class="course-name">Javascript</p>
-                    </div>
-                </div>
-                <div class="course-row-section">
-                    <div class="course-item">
-                        <img class="course-img" src="https://assets.ccbp.in/frontend/static-website/foundations-html5-img.png" alt="" />
-                        <p class="course-name">HTML5</p>
-                    </div>
-                    <div class="course-item">
-                        <img class="course-img" src="https://assets.ccbp.in/frontend/static-website/foundations-java-img.png" alt="" />
-                        <p class="course-name">java</p>
-                    </div>
+    <div id="section-home-page">
+        <div class="home-page-container">
+            <h1 class="home-page-heading">Discover the yogi life on the yoga experience platform</h1>
+            <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png" alt="" class="girl-with-headphone-img">
+            <div class="home-page-footer-section">
+                <p class="home-page-footer-text">Yoga poses strengthen and open tight areas of the body</p>
+                <div class="d-flex justify-content-center">
+                    <button class="footer-btn" onclick="display('section-type-of-yoga-page')">Get Started</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <div id="section-type-of-yoga-page">
+        <div class="type-of-yoga-page-container d-flex flex-column justify-content-center">
+            <div class="type-of-yoga-page-header">
+                <img class="girl-img"
+                    src="https://assets.ccbp.in/frontend/static-website/yoga-girl-without-headphones-img.png" alt="" />
+                <h1 class="heading">Type of Yoga</h1>
+            </div>
+            <div class="type-of-yoga-gallery">
+                <div class="yoga-item d-flex flex-row">
+                    <img class="yoga-posture-img"
+                        src="https://assets.ccbp.in/frontend/static-website/yoga-card1-img.png" alt="" />
+                    <div class="yoga-intro-container">
+                        <h1 class="yoga-posture-name">Acro yoga</h1>
+                        <p class="yoga-posture-importance">It stretches and relaxes your body, improves stamina and
+                            memory</p>
+                    </div>
+                </div>
+                <div class="yoga-item d-flex flex-row">
+                    <img class="yoga-posture-img"
+                        src="https://assets.ccbp.in/frontend/static-website/yoga-card2-img.png" alt="" />
+                    <div class="yoga-intro-container">
+                        <h1 class="yoga-posture-name">Vinyasa yoga</h1>
+                        <p class="yoga-posture-importance">Serves as a training to increase strength and helps to build
+                            lean muscle mass throughout the body.</p>
+                    </div>
+                </div>
+                <div class="yoga-item d-flex flex-row">
+                    <img class="yoga-posture-img"
+                        src="https://assets.ccbp.in/frontend/static-website/yoga-card3-img.png" alt="" />
+                    <div class="yoga-intro-container">
+                        <h1 class="yoga-posture-name">Hatha yoga</h1>
+                        <p class="yoga-posture-importance">it introduces beginners to the main relaxation techniques and
+                            asanas</p>
+                    </div>
+                </div>
+                <div class="yoga-item d-flex flex-row">
+                    <img class="yoga-posture-img"
+                        src="https://assets.ccbp.in/frontend/static-website/yoga-card4-img.png" alt="" />
+                    <div class="yoga-intro-container">
+                        <h1 class="yoga-posture-name">Kundalini yoga</h1>
+                        <p class="yoga-posture-importance">It helps relax and restore the mind and the body, improving
+                            strength, flexibility, and endurance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="footer-btn" onclick="display('section-home-page')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript"
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
+
 </html>

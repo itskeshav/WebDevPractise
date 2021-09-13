@@ -5,6 +5,10 @@
     color: white;
 }
 
+.header h1 {
+    margin-top: 0px;
+}
+
 .header, .footer {
     text-align: center;
 }
