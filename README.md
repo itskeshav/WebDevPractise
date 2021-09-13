@@ -4,5 +4,5 @@
 
 **List of Projects:-**
 
-- [Diwali Page]("practise1\README.md")
+- [Diwali Page]("practise1/README.md")
 
