@@ -20,7 +20,9 @@
 - [Music Page](practise14)
 - [Nemo](practise15)
 - [Favorite Stores Page](practise16)
-- [Foundations Page](practise17)
+- [Yoga Page](practise17)
 - [News Page](practise18)
-
+- [Foundations Page](practise19)
+- [Flat List Page](practise20)
+- [Articles Page](practise21)
 
