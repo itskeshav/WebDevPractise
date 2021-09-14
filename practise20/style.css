@@ -49,6 +49,7 @@
 .list-page-container {
     padding: 25px 15px 15px 15px;
     background-color: #222222;
+    height: 100vh;
 }
 
 .type-of-flat-container {
@@ -86,6 +87,7 @@
 .details-page-card {
     padding: 20px;
     background-color: #222222;
+    height: 100vh;
 }
 
 .details-page-button-section .flat-btn {
